@@ -204,7 +204,7 @@ export default function BestProduct({condition}: {condition: string}) {
           </>
       )}
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0 sm:gap-2 md:gap-8">
         {products.map((product: { id: number; title: string; department: string; price: string; originalPrice: string; imageUrl: string; productColors: string }) => (
           <ProductCard
             key={product.id}
