@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 function EditorPick() {
   return (
@@ -11,7 +12,7 @@ function EditorPick() {
         <div className="grid grid-cols-2 sm:grid-cols-4 grid-rows-4 gap-4 w-full h-full p-4 sm:px-[150px]">
           {/* MEN (Spanning 2 rows and 2 columns) */}
           <div className="relative col-span-2 row-span-2 sm:row-span-4">
-            <img
+            <Image
               src="/images/Card1.png"
               alt="Men"
               className="h-full object-cover"
@@ -26,8 +27,10 @@ function EditorPick() {
 
           {/* WOMEN (Spanning 2 columns) */}
           <div className="relative row-span-2 sm:row-span-4">
-            <img
+            <Image
               src="/images/Card2.png"
+              width={516}
+              height={500}
               alt="Women"
               className="w-full h-full object-cover"
             />
@@ -39,10 +42,12 @@ function EditorPick() {
 
           {/* ACCESSORIES */}
           <div className="relative row-span-1 sm:row-span-2">
-            <img
+            <Image
               src="/images/Card3.png"
               alt="Accessories"
               className="w-full h-full object-cover overflow-hidden"
+              width={258}
+              height={250}
             />
             <div className="absolute inset-0 flex items-end justify-start">
               <span className="text-black font-bold text-[15px] bg-white pt-[13px] pr-[35px] pb-[13px] pl-[35px] mb-6 ml-3">
@@ -52,10 +57,12 @@ function EditorPick() {
 
           {/* KIDS */}
           <div className="relative row-span-1 sm:row-span-2">
-            <img
+            <Image
               src="/images/Card4.png"
               alt="Kids"
               className="w-full h-full object-cover"
+              width={258}
+              height={250}
             />
             <div className="absolute inset-0 flex items-end justify-start">
               <span className="text-black font-bold text-[15px] bg-white pt-[13px] pr-[35px] pb-[13px] pl-[35px] mb-6 ml-3">
@@ -74,7 +81,7 @@ export default EditorPick;
 function EditorsPickTitle() {
   return (
     <div className="text-[#252B42] w-full lg:w-[607px] h-[62px] justify-self-center">
-      <h1 className="font-[700] text-[24px] leading-[32px] tracking-[0.1px] text-center pb-3 text-[#252B42]">EDITOR'S PICK</h1>
+      <h1 className="font-[700] text-[24px] leading-[32px] tracking-[0.1px] text-center pb-3 text-[#252B42]">EDITOR&apos;S PICK</h1>
       <p className="font-[600] text-[14px] text-[#737373] leading-[20px] tracking-[0.2px] text-center pb-[-20px]">
         Problems trying to resolve the conflict between
       </p>
