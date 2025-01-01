@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Vedio() {
   return (
-    <div className="flex justify-center items-center mb-[50px]  w-[800px] h-[280px] mr-[250px] ml-[250px] h-screen bg-gray-100">
+    <div className="flex justify-center items-center mb-[50px]  w-[800px] mr-[250px] ml-[250px] h-screen bg-gray-100">
       <div className="relative w-96 h-54">
         <Image
           src="/images/vediocard.png"

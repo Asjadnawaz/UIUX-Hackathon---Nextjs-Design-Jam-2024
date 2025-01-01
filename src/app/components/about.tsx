@@ -31,7 +31,9 @@ export default function About() {
             </div>
           </main>
         </div>
-        <Vedio/>
+        <div className='flex justify-center mt-8'>
+          <Vedio />
+        </div>
 <div>
 </div>
 </div>
