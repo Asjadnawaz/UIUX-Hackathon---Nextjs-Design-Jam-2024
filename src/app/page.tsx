@@ -16,7 +16,7 @@ export default function Home() {
       <SecondHeader/>
       <HeroSection/>
       <EditorPick/>
-      <BestProducts/>
+      <BestProducts condition = "false"/>
       <Vite/>
       <PartNeuralPage/>
       <FeaturedPosts/>
