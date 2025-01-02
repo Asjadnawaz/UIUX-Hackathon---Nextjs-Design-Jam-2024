@@ -12,13 +12,13 @@ export default function Footer() {
       {/* Social Media Icons */}
       <div className="flex space-x-4">
         <a href="#" className="p-2 bg-[#FAFAFA] rounded-full hover:bg-blue-200">
-        <Image src="/images/Fb.png" alt="Facebook" className="w-5 h-5" />
+          <Image src="/images/Fb.png" alt="Facebook" width={20} height={20} className="w-5 h-5" />
         </a>
         <a href="#" className="p-2 bg-[#FAFAFA] rounded-full hover:bg-blue-200">
-        <Image src="/images/Insta.png" alt="Instagram" className="w-5 h-5" />
+          <Image src="/images/Insta.png" alt="Instagram" width={20} height={20} className="w-5 h-5" />
         </a>
         <a href="#" className="p-2 bg-[#FAFAFA] rounded-full hover:bg-blue-200">
-        <Image src="/images/Twitter.png" alt="Twitter" className="w-5 h-5" />
+          <Image src="/images/Twitter.png" alt="Twitter" width={20} height={20} className="w-5 h-5" />
         </a>
       </div>
       </div>

@@ -3,6 +3,7 @@ import FloatingPage2 from './FloatingPage2';
 import NavBar from './NavBar';
 import SecondHeader from './SecondHeader';
 import BestProduct from './BestProducts';
+import descriptionImage from '/public/images/unsplash_QANOF9iJlFs.png'
 import Logo from './Logo';
 import Footer from './Footer1';
 export default function FloatingPage({title, price, originalPrice, imageUrl, department, productColors}: any) {
@@ -99,7 +100,61 @@ export default function FloatingPage({title, price, originalPrice, imageUrl, dep
             </a>
           </li>
         </div>
+        <div className='flex gap-5'>
+          <Image
+          src = {descriptionImage}
+          width={316}
+          height={372}
+          alt='descriptionImage'
+          className='rounded-lg shadow-md m-4 ml-[150px]'
+          />
+<br />
+            <div className= 'w-[332px] h-[340px] mt-3'>
+            <h1 className='font-[700] text-[24px] leading-[32px] tracking-[0.1px] '>
+            the quick fox jumps over 
+            </h1>
+            <p className='text-[#737373] font-[400] text-[14px] leading-[20px] tracking-[0.1px]'>Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent
+               door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.</p>
+               <br />
+               <p className='text-[#737373] font-[400] text-[14px] leading-[20px] tracking-[0.1px]'>Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent
+               door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.</p>
+               <br />
+               <p className='text-[#737373] font-[400] text-[14px] leading-[20px] tracking-[0.1px]'>Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent
+               door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.</p>
+            </div>
+
+            <div className= 'w-[332px] h-[340px] mt-3'>
+            <h1 className='font-[700] text-[24px] leading-[32px] tracking-[0.1px] '>
+            the quick fox jumps over 
+            </h1>
+            <p className='text-[#737373] font-[700] text-[14px] leading-[20px] tracking-[0.1px]'>
+            {'>'} the quick fox jumps over the lazy dog </p>
+               <br />
+               <p className='text-[#737373] font-[700] text-[14px] leading-[20px] tracking-[0.1px]'> {'>'} the quick fox jumps over the lazy dog</p>
+               <br />
+               <p className='text-[#737373] font-[700] text-[14px] leading-[20px] tracking-[0.1px]'> {'>'} the quick fox jumps over the lazy dog</p>
+               <br />
+               <p className='text-[#737373] font-[700] text-[14px] leading-[20px] tracking-[0.1px]'> {'>'} the quick fox jumps over the lazy dog </p>
+    <br />
+               <h1 className='font-[700] text-[24px] leading-[32px] tracking-[0.1px] '>
+               the quick fox jumps over the lazy dog
+            </h1>
+            <p className='text-[#737373] font-[700] text-[14px] leading-[20px] tracking-[0.1px]'>
+            {'>'} the quick fox jumps over the lazy dog </p>
+               <br />
+               <p className='text-[#737373] font-[700] text-[14px] leading-[20px] tracking-[0.1px]'> {'>'} the quick fox jumps over the lazy dog</p>
+               <br />
+               <p className='text-[#737373] font-[700] text-[14px] leading-[20px] tracking-[0.1px]'> {'>'} the quick fox jumps over the lazy dog</p>
+               <br />
+               <p className='text-[#737373] font-[700] text-[14px] leading-[20px] tracking-[0.1px]'> {'>'} the quick fox jumps over the lazy dog</p>
+            </div>
+
+          </div>
+    
         </div>
+       
+
+
      <BestProduct condition='false'/>
      <Logo/>
      <Footer/>
