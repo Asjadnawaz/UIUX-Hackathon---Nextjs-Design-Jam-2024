@@ -100,7 +100,7 @@ export default function FloatingPage({title, price, originalPrice, imageUrl, dep
             </a>
           </li>
         </div>
-        <div className='flex gap-5'>
+        <div className='flex gap-[50px]'>
           <Image
           src = {descriptionImage}
           width={316}
